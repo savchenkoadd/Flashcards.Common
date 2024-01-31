@@ -9,8 +9,6 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="ServiceContracts\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="RepositoryContracts\" />
   </ItemGroup>
 
 </Project>
