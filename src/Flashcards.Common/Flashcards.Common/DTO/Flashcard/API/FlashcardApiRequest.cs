@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Flashcards.Common.DTO.Flashcard
+namespace Flashcards.Common.DTO.Flashcard.API
 {
     public class FlashcardApiRequest
     {

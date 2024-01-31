@@ -1,11 +1,11 @@
-﻿using Flashcards.Common.DTO.Flashcard;
+﻿using Flashcards.Common.DTO.Flashcard.API;
 using Flashcards.Common.DTO.Identity;
 using Flashcards.Common.RepositoryContracts;
 using System.Net.Http.Json;
 
 namespace Flashcards.Common.Repositories
 {
-	public class ApiRepository : IApiRepository
+    public class ApiRepository : IApiRepository
 	{
 		private readonly HttpClient _httpClient;
 		private readonly string _connectionString;

@@ -1,9 +1,9 @@
-﻿using Flashcards.Common.DTO.Flashcard;
+﻿using Flashcards.Common.DTO.Flashcard.API;
 using Flashcards.Common.DTO.Identity;
 
 namespace Flashcards.Common.RepositoryContracts
 {
-	public interface IApiRepository
+    public interface IApiRepository
 	{
 		Task Register(RegisterDTO registerDTO);
 
